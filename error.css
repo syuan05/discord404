@@ -1,0 +1,17 @@
+body {
+    background-image: url("fake.png");
+    background-size: cover;
+    margin: 0;                                
+    display: flex;
+    justify-content: center; 
+    align-items: center;  
+    height: 100vh; 
+}
+
+.error {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    color: rgb(255, 0, 0);
+    font-size: 40px;
+}
